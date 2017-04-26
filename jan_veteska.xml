@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="jan_veteska.xsl"?>
+
+<konfigurace_wowka xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="jan_veteska.xsd">
+    <nastaveni_grafiky>
+        <obecne>
+            <rozliseni>1920x1080</rozliseni>
+            <refresh>Zapnuto</refresh>
+            <rezim_zobrazeni>Cela obrazovka</rezim_zobrazeni>
+            <multisampling>Nejlepsi</multisampling>
+        </obecne>
+        <efekty_sveta>
+            <teren_vzdalenost>Nejlepsi</teren_vzdalenost>
+			<teren_textury>Nejlepsi</teren_textury>
+			<texture_detaily>Nejlepsi</texture_detaily>
+			<pocasi>Nejlepsi</pocasi>
+			<vyostrovani>Zapnuto</vyostrovani>
+			<level_of_detail>Zapnuto</level_of_detail>
+            <anti-aliasing>Zapnuto</anti-aliasing>
+            <bloom>Zapnuto</bloom>
+            <svetelne_paprsky>Zapnuto</svetelne_paprsky>			
+        </efekty_sveta>
+		<stiny>
+            <teren>Zapnuto</teren>
+            <mrtvy_effect>Zapnuto</mrtvy_effect>
+            <stiny_pocasi>Zapnuto</stiny_pocasi>
+        </stiny>
+		<gamma>9</gamma>            
+    </nastaveni_grafiky>
+    
+    <!--Uzivatelsky profil c.1-->
+    <uzivatelsky_profil>
+        <jmeno>Honza1</jmeno>
+        <level>60</level>
+        <nastaveni_profilu>
+            <zvuk>
+                <celkova_hlasitost>100</celkova_hlasitost>
+                <hlasitost_hudby>100</hlasitost_hudby>
+                <hlasitost_zvuku>100</hlasitost_zvuku>
+                <hlasitost_dialogu>100</hlasitost_dialogu>
+            </zvuk>
+			<prevraceni_kamery>
+                    <mys osaX="Vypnuto" osaY="Vypnuto"/>
+                    <ovladac osaX="Vypnuto" osaY="Vypnuto"/>
+			</prevraceni_kamery>					
+            <ovladani>
+                <citlivost_mysi vRozhrani="1" veHre="1"/>
+                <clickt_to_move>Zapnuto</clickt_to_move>
+				<auto_clear_AFK>Zapnuto</auto_clear_AFK>
+				<block_trades>Vypnuto</block_trades>
+				<auto_self_cast>Vypnuto</auto_self_cast>
+            </ovladani>
+            <zobrazeni>
+                <vyukove_zpravy>Vypnuto</vyukove_zpravy>
+                <jmena_hracu>Vypnuto</jmena_hracu>
+                <hracovi_tituly>Vypnuto</hracovi_tituly>
+                <npc_jmena>Zapnuto</npc_jmena>
+                <zobrazeni_vlastniho_jmena>Zapnuto</zobrazeni_vlastniho_jmena>
+                <zobrazeni_helmy>Zapnuto</zobrazeni_helmy>
+				<zobrazeni_plaste>Zapnuto</zobrazeni_plaste>
+				<instatnt_quest_text>Zapnuto</instatnt_quest_text>
+				<buff_durations>Vypnuto</buff_durations>						     
+            </zobrazeni>
+            <jazyk dialogy="Anglictina" texty="Anglictina">
+                <titulky>Zapnuto</titulky>
+            </jazyk>
+            <rozsirene_moznosti>
+                <chat>Zapnuto</chat>
+                <zamceni_chatu>Vypnuto</zamceni_chatu>
+                <zobrani_bublin_chatu>Zapnuto</zobrani_bublin_chatu>
+                <combat_text>
+                    <dmg>Zapnuto</dmg>
+                    <healing>Zapnuto</healing>
+                    <zobrazeni_aury>Zapnuto</zobrazeni_aury>
+                    <rozbrazeni_reputace>Zapnuto</rozbrazeni_reputace>
+                    <zobrazeni_praelskeho_healu>Zapnuto</zobrazeni_praelskeho_healu>
+					<honory>Zapnuto</honory>
+					<rozbrazeni_dodge>Vypnuto</rozbrazeni_dodge>
+                </combat_text>
+                <zobrazeni_stavu zivot="Zapnuto" mana="Zapnuto" energie="Zapnuto" />
+                <zobrazeni_napovedy>Vypnuto</zobrazeni_napovedy>
+                <nahled_poskozenychPredmetu>Zapnuto</nahled_poskozenychPredmetu>
+            </rozsirene_moznosti>
+        </nastaveni_profilu>
+    </uzivatelsky_profil>
+	
+	<!--Uzivatelsky profil c2.-->
+    <uzivatelsky_profil>
+        <jmeno>Kamil</jmeno>
+        <level>50</level>
+        <nastaveni_profilu>
+            <zvuk>
+                <celkova_hlasitost>80</celkova_hlasitost>
+                <hlasitost_hudby>80</hlasitost_hudby>
+                <hlasitost_zvuku>80</hlasitost_zvuku>
+                <hlasitost_dialogu>10</hlasitost_dialogu>
+            </zvuk>
+			<prevraceni_kamery>
+                    <mys osaX="Zapnuto" osaY="Zapnuto"/>
+                    <ovladac osaX="Vypnuto" osaY="Vypnuto"/>
+			</prevraceni_kamery>					
+            <ovladani>
+                <citlivost_mysi vRozhrani="2" veHre="2"/>
+                <clickt_to_move>Vypnuto</clickt_to_move>
+				<auto_clear_AFK>Vypnuto</auto_clear_AFK>
+				<block_trades>Vypnuto</block_trades>
+				<auto_self_cast>Zapnuto</auto_self_cast>
+            </ovladani>
+            <zobrazeni>
+                <vyukove_zpravy>Zapnuto</vyukove_zpravy>
+                <jmena_hracu>Vypnuto</jmena_hracu>
+                <hracovi_tituly>Zapnuto</hracovi_tituly>
+                <npc_jmena>Zapnuto</npc_jmena>
+                <zobrazeni_vlastniho_jmena>Vypnuto</zobrazeni_vlastniho_jmena>
+                <zobrazeni_helmy>Vypnuto</zobrazeni_helmy>
+				<zobrazeni_plaste>Zapnuto</zobrazeni_plaste>
+				<instatnt_quest_text>Vypnuto</instatnt_quest_text>
+				<buff_durations>Vypnuto</buff_durations>						     
+            </zobrazeni>
+            <jazyk dialogy="Anglictina" texty="Nemcina">
+                <titulky>Zapnuto</titulky>
+            </jazyk>
+            <rozsirene_moznosti>
+                <chat>Zapnuto</chat>
+                <zamceni_chatu>Zapnuto</zamceni_chatu>
+                <zobrani_bublin_chatu>Vypnuto</zobrani_bublin_chatu>
+                <combat_text>
+                    <dmg>Zapnuto</dmg>
+                    <healing>Vypnuto</healing>
+                    <zobrazeni_aury>Vypnuto</zobrazeni_aury>
+                    <rozbrazeni_reputace>Zapnuto</rozbrazeni_reputace>
+                    <zobrazeni_praelskeho_healu>Zapnuto</zobrazeni_praelskeho_healu>
+					<honory>Zapnuto</honory>
+					<rozbrazeni_dodge>Zapnuto</rozbrazeni_dodge>
+                </combat_text>
+                <zobrazeni_stavu zivot="Vypnuto" mana="Zapnuto" energie="Zapnuto" />
+                <zobrazeni_napovedy>Vypnuto</zobrazeni_napovedy>
+                <nahled_poskozenychPredmetu>Zapnuto</nahled_poskozenychPredmetu>
+            </rozsirene_moznosti>
+        </nastaveni_profilu>
+    </uzivatelsky_profil>
+	
+	<!--Uzivatelsky profil c.3-->
+    <uzivatelsky_profil>
+        <jmeno>Kungen</jmeno>
+        <level>40</level>
+        <nastaveni_profilu>
+            <zvuk>
+                <celkova_hlasitost>20</celkova_hlasitost>
+                <hlasitost_hudby>10</hlasitost_hudby>
+                <hlasitost_zvuku>10</hlasitost_zvuku>
+                <hlasitost_dialogu>10</hlasitost_dialogu>
+            </zvuk>
+			<prevraceni_kamery>
+                    <mys osaX="Vypnuto" osaY="Vypnuto"/>
+                    <ovladac osaX="Vypnuto" osaY="Vypnuto"/>
+			</prevraceni_kamery>					
+            <ovladani>
+                <citlivost_mysi vRozhrani="1" veHre="1"/>
+                <clickt_to_move>Vypnuto</clickt_to_move>
+				<auto_clear_AFK>Vypnuto</auto_clear_AFK>
+				<block_trades>Vypnuto</block_trades>
+				<auto_self_cast>Vypnuto</auto_self_cast>
+            </ovladani>
+            <zobrazeni>
+                <vyukove_zpravy>Zapnuto</vyukove_zpravy>
+                <jmena_hracu>Zapnuto</jmena_hracu>
+                <hracovi_tituly>Zapnuto</hracovi_tituly>
+                <npc_jmena>Zapnuto</npc_jmena>
+                <zobrazeni_vlastniho_jmena>Zapnuto</zobrazeni_vlastniho_jmena>
+                <zobrazeni_helmy>Zapnuto</zobrazeni_helmy>
+				<zobrazeni_plaste>Zapnuto</zobrazeni_plaste>
+				<instatnt_quest_text>Zapnuto</instatnt_quest_text>
+				<buff_durations>Zapnuto</buff_durations>						     
+            </zobrazeni>
+            <jazyk dialogy="Japonstina" texty="Anglictina">
+                <titulky>Zapnuto</titulky>
+            </jazyk>
+            <rozsirene_moznosti>
+                <chat>Zapnuto</chat>
+                <zamceni_chatu>Zapnuto</zamceni_chatu>
+                <zobrani_bublin_chatu>Zapnuto</zobrani_bublin_chatu>
+                <combat_text>
+                    <dmg>Zapnuto</dmg>
+                    <healing>Zapnuto</healing>
+                    <zobrazeni_aury>Zapnuto</zobrazeni_aury>
+                    <rozbrazeni_reputace>Zapnuto</rozbrazeni_reputace>
+                    <zobrazeni_praelskeho_healu>Zapnuto</zobrazeni_praelskeho_healu>
+					<honory>Zapnuto</honory>
+					<rozbrazeni_dodge>Zapnuto</rozbrazeni_dodge>
+                </combat_text>
+                <zobrazeni_stavu zivot="Zapnuto" mana="Zapnuto" energie="Zapnuto" />
+                <zobrazeni_napovedy>Zapnuto</zobrazeni_napovedy>
+                <nahled_poskozenychPredmetu>Zapnuto</nahled_poskozenychPredmetu>
+            </rozsirene_moznosti>
+        </nastaveni_profilu>
+    </uzivatelsky_profil>
+	
+	<!--Uzivatelsky profil c.4-->
+    <uzivatelsky_profil>
+        <jmeno>Hydra</jmeno>
+        <level>59</level>
+        <nastaveni_profilu>
+            <zvuk>
+                <celkova_hlasitost>70</celkova_hlasitost>
+                <hlasitost_hudby>70</hlasitost_hudby>
+                <hlasitost_zvuku>70</hlasitost_zvuku>
+                <hlasitost_dialogu>50</hlasitost_dialogu>
+            </zvuk>
+			<prevraceni_kamery>
+                    <mys osaX="Zapnuto" osaY="Zapnuto"/>
+                    <ovladac osaX="Zapnuto" osaY="Zapnuto"/>
+			</prevraceni_kamery>					
+            <ovladani>
+                <citlivost_mysi vRozhrani="3" veHre="4"/>
+                <clickt_to_move>Vypnuto</clickt_to_move>
+				<auto_clear_AFK>Vypnuto</auto_clear_AFK>
+				<block_trades>Vypnuto</block_trades>
+				<auto_self_cast>Vypnuto</auto_self_cast>
+            </ovladani>
+            <zobrazeni>
+                <vyukove_zpravy>Vypnuto</vyukove_zpravy>
+                <jmena_hracu>Vypnuto</jmena_hracu>
+                <hracovi_tituly>Vypnuto</hracovi_tituly>
+                <npc_jmena>Vypnuto</npc_jmena>
+                <zobrazeni_vlastniho_jmena>Vypnuto</zobrazeni_vlastniho_jmena>
+                <zobrazeni_helmy>Vypnuto</zobrazeni_helmy>
+				<zobrazeni_plaste>Vypnuto</zobrazeni_plaste>
+				<instatnt_quest_text>Vypnuto</instatnt_quest_text>
+				<buff_durations>Vypnuto</buff_durations>						     
+            </zobrazeni>
+            <jazyk dialogy="Cestina" texty="Cestina">
+                <titulky>Vypnuto</titulky>
+            </jazyk>
+            <rozsirene_moznosti>
+                <chat>Vypnuto</chat>
+                <zamceni_chatu>Vypnuto</zamceni_chatu>
+                <zobrani_bublin_chatu>Vypnuto</zobrani_bublin_chatu>
+                <combat_text>
+                    <dmg>Vypnuto</dmg>
+                    <healing>Vypnuto</healing>
+                    <zobrazeni_aury>Vypnuto</zobrazeni_aury>
+                    <rozbrazeni_reputace>Vypnuto</rozbrazeni_reputace>
+                    <zobrazeni_praelskeho_healu>Vypnuto</zobrazeni_praelskeho_healu>
+					<honory>Vypnuto</honory>
+					<rozbrazeni_dodge>Vypnuto</rozbrazeni_dodge>
+                </combat_text>
+                <zobrazeni_stavu zivot="Vypnuto" mana="Vypnuto" energie="Vypnuto" />
+                <zobrazeni_napovedy>Vypnuto</zobrazeni_napovedy>
+                <nahled_poskozenychPredmetu>Vypnuto</nahled_poskozenychPredmetu>
+            </rozsirene_moznosti>
+        </nastaveni_profilu>
+    </uzivatelsky_profil>
+	
+	<!--Uzivatelsky profil c.5-->
+    <uzivatelsky_profil>
+        <jmeno>Paper</jmeno>
+        <level>30</level>
+        <nastaveni_profilu>
+            <zvuk>
+                <celkova_hlasitost>50</celkova_hlasitost>
+                <hlasitost_hudby>50</hlasitost_hudby>
+                <hlasitost_zvuku>50</hlasitost_zvuku>
+                <hlasitost_dialogu>50</hlasitost_dialogu>
+            </zvuk>
+			<prevraceni_kamery>
+                    <mys osaX="Vypnuto" osaY="Vypnuto"/>
+                    <ovladac osaX="Vypnuto" osaY="Vypnuto"/>
+			</prevraceni_kamery>					
+            <ovladani>
+                <citlivost_mysi vRozhrani="1" veHre="1"/>
+                <clickt_to_move>Vypnuto</clickt_to_move>
+				<auto_clear_AFK>Vypnuto</auto_clear_AFK>
+				<block_trades>Vypnuto</block_trades>
+				<auto_self_cast>Vypnuto</auto_self_cast>
+            </ovladani>
+            <zobrazeni>
+                <vyukove_zpravy>Vypnuto</vyukove_zpravy>
+                <jmena_hracu>Vypnuto</jmena_hracu>
+                <hracovi_tituly>Vypnuto</hracovi_tituly>
+                <npc_jmena>Vypnuto</npc_jmena>
+                <zobrazeni_vlastniho_jmena>Vypnuto</zobrazeni_vlastniho_jmena>
+                <zobrazeni_helmy>Vypnuto</zobrazeni_helmy>
+				<zobrazeni_plaste>Vypnuto</zobrazeni_plaste>
+				<instatnt_quest_text>Vypnuto</instatnt_quest_text>
+				<buff_durations>Vypnuto</buff_durations>						     
+            </zobrazeni>
+            <jazyk dialogy="Cestina" texty="Cestina">
+                <titulky>Zapnuto</titulky>
+            </jazyk>
+            <rozsirene_moznosti>
+                <chat>Zapnuto</chat>
+                <zamceni_chatu>Zapnuto</zamceni_chatu>
+                <zobrani_bublin_chatu>Zapnuto</zobrani_bublin_chatu>
+                <combat_text>
+                    <dmg>Zapnuto</dmg>
+                    <healing>Zapnuto</healing>
+                    <zobrazeni_aury>Zapnuto</zobrazeni_aury>
+                    <rozbrazeni_reputace>Zapnuto</rozbrazeni_reputace>
+                    <zobrazeni_praelskeho_healu>Zapnuto</zobrazeni_praelskeho_healu>
+					<honory>Zapnuto</honory>
+					<rozbrazeni_dodge>Zapnuto</rozbrazeni_dodge>
+                </combat_text>
+                <zobrazeni_stavu zivot="Zapnuto" mana="Zapnuto" energie="Zapnuto" />
+                <zobrazeni_napovedy>Zapnuto</zobrazeni_napovedy>
+                <nahled_poskozenychPredmetu>Zapnuto</nahled_poskozenychPredmetu>
+            </rozsirene_moznosti>
+        </nastaveni_profilu>
+    </uzivatelsky_profil>
+	
+	<!--Uzivatelsky profil c.6-->
+    <uzivatelsky_profil>
+        <jmeno>Seznam</jmeno>
+        <level>60</level>
+        <nastaveni_profilu>
+            <zvuk>
+                <celkova_hlasitost>0</celkova_hlasitost>
+                <hlasitost_hudby>0</hlasitost_hudby>
+                <hlasitost_zvuku>0</hlasitost_zvuku>
+                <hlasitost_dialogu>0</hlasitost_dialogu>
+            </zvuk>
+			<prevraceni_kamery>
+                    <mys osaX="Zapnuto" osaY="Zapnuto"/>
+                    <ovladac osaX="Zapnuto" osaY="Zapnuto"/>
+			</prevraceni_kamery>					
+            <ovladani>
+                <citlivost_mysi vRozhrani="1" veHre="1"/>
+                <clickt_to_move>Zapnuto</clickt_to_move>
+				<auto_clear_AFK>Zapnuto</auto_clear_AFK>
+				<block_trades>Zapnuto</block_trades>
+				<auto_self_cast>Zapnuto</auto_self_cast>
+            </ovladani>
+            <zobrazeni>
+                <vyukove_zpravy>Zapnuto</vyukove_zpravy>
+                <jmena_hracu>Zapnuto</jmena_hracu>
+                <hracovi_tituly>Zapnuto</hracovi_tituly>
+                <npc_jmena>Zapnuto</npc_jmena>
+                <zobrazeni_vlastniho_jmena>Zapnuto</zobrazeni_vlastniho_jmena>
+                <zobrazeni_helmy>Zapnuto</zobrazeni_helmy>
+				<zobrazeni_plaste>Zapnuto</zobrazeni_plaste>
+				<instatnt_quest_text>Zapnuto</instatnt_quest_text>
+				<buff_durations>Zapnuto</buff_durations>						     
+            </zobrazeni>
+            <jazyk dialogy="Anglictina" texty="Anglictina">
+                <titulky>Zapnuto</titulky>
+            </jazyk>
+            <rozsirene_moznosti>
+                <chat>Vypnuto</chat>
+                <zamceni_chatu>Vypnuto</zamceni_chatu>
+                <zobrani_bublin_chatu>Vypnuto</zobrani_bublin_chatu>
+                <combat_text>
+                    <dmg>Vypnuto</dmg>
+                    <healing>Vypnuto</healing>
+                    <zobrazeni_aury>Vypnuto</zobrazeni_aury>
+                    <rozbrazeni_reputace>Vypnuto</rozbrazeni_reputace>
+                    <zobrazeni_praelskeho_healu>Vypnuto</zobrazeni_praelskeho_healu>
+					<honory>Vypnuto</honory>
+					<rozbrazeni_dodge>Vypnuto</rozbrazeni_dodge>
+                </combat_text>
+                <zobrazeni_stavu zivot="Vypnuto" mana="Vypnuto" energie="Vypnuto" />
+                <zobrazeni_napovedy>Vypnuto</zobrazeni_napovedy>
+                <nahled_poskozenychPredmetu>Vypnuto</nahled_poskozenychPredmetu>
+            </rozsirene_moznosti>
+        </nastaveni_profilu>
+    </uzivatelsky_profil>
+</konfigurace_wowka>

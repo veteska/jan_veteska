@@ -1,0 +1,445 @@
+{
+  "konfigurace_wowka": {
+    "nastaveni_grafiky": {
+      "obecne": {
+        "rozliseni": "1920x1080",
+        "refresh": "Zapnuto",
+        "rezim_zobrazeni": "Cela obrazovka",
+        "multisampling": "Nejlepsi"
+      },
+      "efekty_sveta": {
+        "teren_vzdalenost": "Nejlepsi",
+        "teren_textury": "Nejlepsi",
+        "texture_detaily": "Nejlepsi",
+        "pocasi": "Nejlepsi",
+        "vyostrovani": "Zapnuto",
+        "level_of_detail": "Zapnuto",
+        "anti-aliasing": "Zapnuto",
+        "bloom": "Zapnuto",
+        "svetelne_paprsky": "Zapnuto"
+      },
+      "stiny": {
+        "teren": "zapnuto",
+        "mrtvy_effect": "Zapnuto",
+        "stiny_pocasi": "Zapnuto"
+      },
+      "gamma": "9"
+    },
+    "uzivatelsky_profil": [
+      {
+        "jmeno": "Honza1",
+        "level": "60",
+        "nastaveni_profilu": {
+          "zvuk": {
+            "celkova_hlasitost": "100",
+            "hlasitost_hudby": "100",
+            "hlasitost_zvuku": "100",
+            "hlasitost_dialogu": "100"
+          },
+          "prevraceni_kamery": {
+            "mys": {
+              "-osaX": "Vypnuto",
+              "-osaY": "Vypnuto"
+            },
+            "ovladac": {
+              "-osaX": "Vypnuto",
+              "-osaY": "Vypnuto"
+            }
+          },
+          "ovladani": {
+            "citlivost_mysi": {
+              "-vRozhrani": "1",
+              "-veHre": "1"
+            },
+            "clickt_to_move": "Zapnuto",
+            "auto_clear_AFK": "Zapnuto",
+            "block_trades": "Vypnuto",
+            "auto_self_cast": "Vypnuto"
+          },
+          "zobrazeni": {
+            "vyukove_zpravy": "Vypnuto",
+            "jmena_hracu": "Vypnuto",
+            "hracovi_tituly": "Vypnuto",
+            "npc_jmena": "Zapnuto",
+            "zobrazeni_vlastniho_jmena": "Zapnuto",
+            "zobrazeni_helmy": "Zapnuto",
+            "zobrazeni_plaste": "Zapnuto",
+            "instatnt_quest_text": "Zapnuto",
+            "buff_durations": "Vypnuto"
+          },
+          "jazyk": {
+            "-dialogy": "Anglictina",
+            "-texty": "Anglictina",
+            "titulky": "Zapnuto"
+          },
+          "rozsirene_moznosti": {
+            "chat": "Zapnuto",
+            "zamceni_chatu": "Vypnuto",
+            "zobrani_bublin_chatu": "Zapnuto",
+            "combat_text": {
+              "dmg": "Zapnuto",
+              "healing": "Zapnuto",
+              "zobrazeni_aury": "Zapnuto",
+              "rozbrazeni_reputace": "Zapnuto",
+              "zobrazeni_praelskeho_healu": "Zapnuto",
+              "honory": "Zapnuto",
+              "rozbrazeni_dodge": "Vypnuto"
+            },
+            "zobrazeni_stavu": {
+              "-zivot": "Zapnuto",
+              "-mana": "Zapnuto",
+              "-energie": "Zapnuto"
+            },
+            "zobrazeni_napovedy": "Vypnuto",
+            "nahled_poskozenychPredmetu": "Zapnuto"
+          }
+        }
+      },
+      {
+        "jmeno": "Kamil",
+        "level": "50",
+        "nastaveni_profilu": {
+          "zvuk": {
+            "celkova_hlasitost": "80",
+            "hlasitost_hudby": "80",
+            "hlasitost_zvuku": "80",
+            "hlasitost_dialogu": "10"
+          },
+          "prevraceni_kamery": {
+            "mys": {
+              "-osaX": "Zapnuto",
+              "-osaY": "Zapnuto"
+            },
+            "ovladac": {
+              "-osaX": "Vypnuto",
+              "-osaY": "Vypnuto"
+            }
+          },
+          "ovladani": {
+            "citlivost_mysi": {
+              "-vRozhrani": "2",
+              "-veHre": "2"
+            },
+            "clickt_to_move": "Vypnuto",
+            "auto_clear_AFK": "Vypnuto",
+            "block_trades": "Vypnuto",
+            "auto_self_cast": "Zapnuto"
+          },
+          "zobrazeni": {
+            "vyukove_zpravy": "Zapnuto",
+            "jmena_hracu": "Vypnuto",
+            "hracovi_tituly": "Zapnuto",
+            "npc_jmena": "Zapnuto",
+            "zobrazeni_vlastniho_jmena": "Vypnuto",
+            "zobrazeni_helmy": "Vypnuto",
+            "zobrazeni_plaste": "Zapnuto",
+            "instatnt_quest_text": "Vypnuto",
+            "buff_durations": "Vypnuto"
+          },
+          "jazyk": {
+            "-dialogy": "Anglictina",
+            "-texty": "Nemcina",
+            "titulky": "Zapnuto"
+          },
+          "rozsirene_moznosti": {
+            "chat": "Zapnuto",
+            "zamceni_chatu": "Zapnuto",
+            "zobrani_bublin_chatu": "Vypnuto",
+            "combat_text": {
+              "dmg": "Zapnuto",
+              "healing": "Vypnuto",
+              "zobrazeni_aury": "Vypnuto",
+              "rozbrazeni_reputace": "Zapnuto",
+              "zobrazeni_praelskeho_healu": "Zapnuto",
+              "honory": "Zapnuto",
+              "rozbrazeni_dodge": "Zapnuto"
+            },
+            "zobrazeni_stavu": {
+              "-zivot": "Vypnuto",
+              "-mana": "Zapnuto",
+              "-energie": "Zapnuto"
+            },
+            "zobrazeni_napovedy": "Vypnuto",
+            "nahled_poskozenychPredmetu": "Zapnuto"
+          }
+        }
+      },
+      {
+        "jmeno": "Kungen",
+        "level": "99",
+        "nastaveni_profilu": {
+          "zvuk": {
+            "celkova_hlasitost": "2é",
+            "hlasitost_hudby": "10",
+            "hlasitost_zvuku": "10",
+            "hlasitost_dialogu": "10"
+          },
+          "prevraceni_kamery": {
+            "mys": {
+              "-osaX": "Vypnuto",
+              "-osaY": "Vypnuto"
+            },
+            "ovladac": {
+              "-osaX": "Vypnuto",
+              "-osaY": "Vypnuto"
+            }
+          },
+          "ovladani": {
+            "citlivost_mysi": {
+              "-vRozhrani": "1",
+              "-veHre": "1"
+            },
+            "clickt_to_move": "Vypnuto",
+            "auto_clear_AFK": "Vypnuto",
+            "block_trades": "Vypnuto",
+            "auto_self_cast": "Vypnuto"
+          },
+          "zobrazeni": {
+            "vyukove_zpravy": "Zapnuto",
+            "jmena_hracu": "Zapnuto",
+            "hracovi_tituly": "Zapnuto",
+            "npc_jmena": "Zapnuto",
+            "zobrazeni_vlastniho_jmena": "Zapnuto",
+            "zobrazeni_helmy": "Zapnuto",
+            "zobrazeni_plaste": "Zapnuto",
+            "instatnt_quest_text": "Zapnuto",
+            "buff_durations": "Zapnuto"
+          },
+          "jazyk": {
+            "-dialogy": "Svedstina",
+            "-texty": "Anglictina",
+            "titulky": "Zapnuto"
+          },
+          "rozsirene_moznosti": {
+            "chat": "Zapnuto",
+            "zamceni_chatu": "Zapnuto",
+            "zobrani_bublin_chatu": "Zapnuto",
+            "combat_text": {
+              "dmg": "Zapnuto",
+              "healing": "Zapnuto",
+              "zobrazeni_aury": "Zapnuto",
+              "rozbrazeni_reputace": "Zapnuto",
+              "zobrazeni_praelskeho_healu": "Zapnuto",
+              "honory": "Zapnuto",
+              "rozbrazeni_dodge": "Zapnuto"
+            },
+            "zobrazeni_stavu": {
+              "-zivot": "Zapnuto",
+              "-mana": "Zapnuto",
+              "-energie": "Zapnuto"
+            },
+            "zobrazeni_napovedy": "Zapnuto",
+            "nahled_poskozenychPredmetu": "Zapnuto"
+          }
+        }
+      },
+      {
+        "jmeno": "Hydra",
+        "level": "59",
+        "nastaveni_profilu": {
+          "zvuk": {
+            "celkova_hlasitost": "70",
+            "hlasitost_hudby": "70",
+            "hlasitost_zvuku": "70",
+            "hlasitost_dialogu": "50"
+          },
+          "prevraceni_kamery": {
+            "mys": {
+              "-osaX": "Zapnuto",
+              "-osaY": "Zapnuto"
+            },
+            "ovladac": {
+              "-osaX": "Zapnuto",
+              "-osaY": "Zapnuto"
+            }
+          },
+          "ovladani": {
+            "citlivost_mysi": {
+              "-vRozhrani": "3",
+              "-veHre": "5"
+            },
+            "clickt_to_move": "Vypnuto",
+            "auto_clear_AFK": "Vypnuto",
+            "block_trades": "Vypnuto",
+            "auto_self_cast": "Vypnuto"
+          },
+          "zobrazeni": {
+            "vyukove_zpravy": "Vypnuto",
+            "jmena_hracu": "Vypnuto",
+            "hracovi_tituly": "Vypnuto",
+            "npc_jmena": "Vypnuto",
+            "zobrazeni_vlastniho_jmena": "Vypnuto",
+            "zobrazeni_helmy": "Vypnuto",
+            "zobrazeni_plaste": "Vypnuto",
+            "instatnt_quest_text": "Vypnuto",
+            "buff_durations": "Vypnuto"
+          },
+          "jazyk": {
+            "-dialogy": "Cinstina",
+            "-texty": "Cestina",
+            "titulky": "Vypnuto"
+          },
+          "rozsirene_moznosti": {
+            "chat": "Vypnuto",
+            "zamceni_chatu": "Vypnuto",
+            "zobrani_bublin_chatu": "Vypnuto",
+            "combat_text": {
+              "dmg": "Vypnuto",
+              "healing": "Vypnuto",
+              "zobrazeni_aury": "Vypnuto",
+              "rozbrazeni_reputace": "Vypnuto",
+              "zobrazeni_praelskeho_healu": "Vypnuto",
+              "honory": "Vypnuto",
+              "rozbrazeni_dodge": "Vypnuto"
+            },
+            "zobrazeni_stavu": {
+              "-zivot": "Vypnuto",
+              "-mana": "Vypnuto",
+              "-energie": "Vypnuto"
+            },
+            "zobrazeni_napovedy": "Vypnuto",
+            "nahled_poskozenychPredmetu": "Vypnuto"
+          }
+        }
+      },
+      {
+        "jmeno": "Paper",
+        "level": "30",
+        "nastaveni_profilu": {
+          "zvuk": {
+            "celkova_hlasitost": "50",
+            "hlasitost_hudby": "50",
+            "hlasitost_zvuku": "50",
+            "hlasitost_dialogu": "50"
+          },
+          "prevraceni_kamery": {
+            "mys": {
+              "-osaX": "Vypnuto",
+              "-osaY": "Vypnuto"
+            },
+            "ovladac": {
+              "-osaX": "Vypnuto",
+              "-osaY": "Vypnuto"
+            }
+          },
+          "ovladani": {
+            "citlivost_mysi": {
+              "-vRozhrani": "1",
+              "-veHre": "1"
+            },
+            "clickt_to_move": "Vypnuto",
+            "auto_clear_AFK": "Vypnuto",
+            "block_trades": "Vypnuto",
+            "auto_self_cast": "Vypnuto"
+          },
+          "zobrazeni": {
+            "vyukove_zpravy": "Vypnuto",
+            "jmena_hracu": "Vypnuto",
+            "hracovi_tituly": "Vypnuto",
+            "npc_jmena": "Vypnuto",
+            "zobrazeni_vlastniho_jmena": "Vypnuto",
+            "zobrazeni_helmy": "Vypnuto",
+            "zobrazeni_plaste": "Vypnuto",
+            "instatnt_quest_text": "Vypnuto",
+            "buff_durations": "Vypnuto"
+          },
+          "jazyk": {
+            "-dialogy": "Cestina",
+            "-texty": "Cestina",
+            "titulky": "Zapnuto"
+          },
+          "rozsirene_moznosti": {
+            "chat": "Zapnuto",
+            "zamceni_chatu": "Zapnuto",
+            "zobrani_bublin_chatu": "Zapnuto",
+            "combat_text": {
+              "dmg": "Zapnuto",
+              "healing": "Zapnuto",
+              "zobrazeni_aury": "Zapnuto",
+              "rozbrazeni_reputace": "Zapnuto",
+              "zobrazeni_praelskeho_healu": "Zapnuto",
+              "honory": "Zapnuto",
+              "rozbrazeni_dodge": "Zapnuto"
+            },
+            "zobrazeni_stavu": {
+              "-zivot": "Zapnuto",
+              "-mana": "Zapnuto",
+              "-energie": "Zapnuto"
+            },
+            "zobrazeni_napovedy": "Zapnuto",
+            "nahled_poskozenychPredmetu": "Zapnuto"
+          }
+        }
+      },
+      {
+        "jmeno": "Seznam",
+        "level": "60",
+        "nastaveni_profilu": {
+          "zvuk": {
+            "celkova_hlasitost": "0",
+            "hlasitost_hudby": "0",
+            "hlasitost_zvuku": "0",
+            "hlasitost_dialogu": "0"
+          },
+          "prevraceni_kamery": {
+            "mys": {
+              "-osaX": "Zapnuto",
+              "-osaY": "Zapnuto"
+            },
+            "ovladac": {
+              "-osaX": "Zapnuto",
+              "-osaY": "Zapnuto"
+            }
+          },
+          "ovladani": {
+            "citlivost_mysi": {
+              "-vRozhrani": "1",
+              "-veHre": "1"
+            },
+            "clickt_to_move": "Zapnuto",
+            "auto_clear_AFK": "Zapnuto",
+            "block_trades": "Zapnuto",
+            "auto_self_cast": "Zapnuto"
+          },
+          "zobrazeni": {
+            "vyukove_zpravy": "Zapnuto",
+            "jmena_hracu": "Zapnuto",
+            "hracovi_tituly": "Zapnuto",
+            "npc_jmena": "Zapnuto",
+            "zobrazeni_vlastniho_jmena": "Zapnuto",
+            "zobrazeni_helmy": "Zapnuto",
+            "zobrazeni_plaste": "Zapnuto",
+            "instatnt_quest_text": "Zapnuto",
+            "buff_durations": "Zapnuto"
+          },
+          "jazyk": {
+            "-dialogy": "Anglictina",
+            "-texty": "Anglictina",
+            "titulky": "Zapnuto"
+          },
+          "rozsirene_moznosti": {
+            "chat": "Vypnuto",
+            "zamceni_chatu": "Vypnuto",
+            "zobrani_bublin_chatu": "Vypnuto",
+            "combat_text": {
+              "dmg": "Vypnuto",
+              "healing": "Vypnuto",
+              "zobrazeni_aury": "Vypnuto",
+              "rozbrazeni_reputace": "Vypnuto",
+              "zobrazeni_praelskeho_healu": "Vypnuto",
+              "honory": "Vypnuto",
+              "rozbrazeni_dodge": "Vypnuto"
+            },
+            "zobrazeni_stavu": {
+              "-zivot": "Vypnuto",
+              "-mana": "Vypnuto",
+              "-energie": "Vypnuto"
+            },
+            "zobrazeni_napovedy": "Vypnuto",
+            "nahled_poskozenychPredmetu": "Vypnuto"
+          }
+        }
+      }
+    ]
+  }
+}

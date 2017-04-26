@@ -1,0 +1,243 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="konfigurace_wowka">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="nastaveni_grafiky">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="obecne">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="resolution" name="rozliseni"/>
+                    <xs:element name="refresh" type="zapVyp"/>
+                    <xs:element name="rezim_zobrazeni">
+                        <xs:simpleType>
+                            <xs:restriction base="xs:string">
+                                <xs:enumeration value="V okne"/>
+                                <xs:enumeration value="Cela obrazovka"/>
+                            </xs:restriction>
+                        </xs:simpleType>
+                    </xs:element>
+                    <xs:element type="kvalita" name="multisampling"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="efekty_sveta">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="teren_vzdalenost" type="kvalita"/>
+                    <xs:element name="teren_textury" type="kvalita"/>
+                    <xs:element name="texture_detaily" type="kvalita"/>
+                    <xs:element name="pocasi" type="kvalita"/>
+                    <xs:element name="vyostrovani" type="zapVyp"/>
+                    <xs:element name="level_of_detail" type="zapVyp"/>
+                    <xs:element name="anti-aliasing" type="zapVyp"/>
+                    <xs:element name="bloom" type="zapVyp"/>
+                    <xs:element name="svetelne_paprsky" type="zapVyp"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="stiny">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="teren" type="zapVyp"/>
+                    <xs:element name="mrtvy_effect" type="zapVyp"/>
+                    <xs:element name="stiny_pocasi" type="zapVyp"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="gamma">
+                  <xs:simpleType>
+                      <xs:restriction base="xs:integer">
+                          <xs:minInclusive value="1"/>
+                          <xs:maxInclusive value="17"/>
+                      </xs:restriction>
+                  </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="uzivatelsky_profil" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="jmeno"/>
+              <xs:element type="xs:integer" name="level"/>
+              <xs:element name="nastaveni_profilu">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="zvuk">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="celkova_hlasitost" type="procenta"/>
+                          <xs:element name="hlasitost_hudby" type="procenta"/>
+                          <xs:element name="hlasitost_zvuku" type="procenta"/>
+                          <xs:element name="hlasitost_dialogu" type="procenta"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="prevraceni_kamery">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="mys">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="osaX" use="optional" type="zapVyp"/>
+                                  <xs:attribute name="osaY" use="optional" type="zapVyp"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="ovladac">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="osaX" use="optional" type="zapVyp"/>
+                                  <xs:attribute name="osaY" use="optional" type="zapVyp"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="ovladani">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="citlivost_mysi">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute name="vRozhrani" use="optional" type="citlivost"/>
+                                  <xs:attribute name="veHre" use="optional" type="citlivost"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="clickt_to_move" type="zapVyp"/>
+                          <xs:element name="auto_clear_AFK" type="zapVyp"/>
+                          <xs:element name="block_trades" type="zapVyp"/>
+                          <xs:element name="auto_self_cast" type="zapVyp"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="zobrazeni">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="vyukove_zpravy" type="zapVyp"/>
+                          <xs:element name="jmena_hracu" type="zapVyp"/>
+                          <xs:element name="hracovi_tituly" type="zapVyp"/>
+                          <xs:element name="npc_jmena" type="zapVyp"/>
+                          <xs:element name="zobrazeni_vlastniho_jmena" type="zapVyp"/>
+                          <xs:element name="zobrazeni_helmy" type="zapVyp"/>
+                          <xs:element name="zobrazeni_plaste" type="zapVyp"/>
+                          <xs:element name="instatnt_quest_text" type="zapVyp"/>
+                          <xs:element name="buff_durations" type="zapVyp"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="jazyk">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="titulky" type="zapVyp"/>
+                        </xs:sequence>
+                        <xs:attribute name="dialogy" use="optional" type="lang"/>
+                        <xs:attribute name="texty" use="optional" type="lang"/>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="rozsirene_moznosti">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="chat" type="zapVyp"/>
+                          <xs:element name="zamceni_chatu" type="zapVyp"/>
+                          <xs:element name="zobrani_bublin_chatu" type="zapVyp"/>
+                          <xs:element name="combat_text">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element  name="dmg" type="zapVyp"/>
+                                <xs:element  name="healing" type="zapVyp"/>
+                                <xs:element  name="zobrazeni_aury" type="zapVyp"/>
+                                <xs:element  name="rozbrazeni_reputace" type="zapVyp"/>
+                                <xs:element  name="zobrazeni_praelskeho_healu" type="zapVyp"/>
+                                <xs:element  name="honory" type="zapVyp"/>
+                                <xs:element  name="rozbrazeni_dodge" type="zapVyp"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="zobrazeni_stavu">
+                            <xs:complexType>
+                              <xs:simpleContent>
+                                <xs:extension base="xs:string">
+                                  <xs:attribute  name="zivot" use="optional" type="zapVyp"/>
+                                  <xs:attribute  name="mana" use="optional" type="zapVyp"/>
+                                  <xs:attribute  name="energie" use="optional" type="zapVyp"/>
+                                </xs:extension>
+                              </xs:simpleContent>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element  name="zobrazeni_napovedy" type="zapVyp"/>
+                          <xs:element  name="nahled_poskozenychPredmetu" type="zapVyp"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+    
+      <xs:simpleType name="zapVyp">
+          <xs:restriction base="xs:string">
+              <xs:enumeration value="Zapnuto"/>
+              <xs:enumeration value="Vypnuto"/>
+          </xs:restriction>
+      </xs:simpleType>
+
+      <xs:simpleType name="kvalita">
+          <xs:restriction base="xs:string">
+              <xs:enumeration value="Nizsi"/>
+              <xs:enumeration value="Stredni"/>
+              <xs:enumeration value="Vyssi"/>
+              <xs:enumeration value="Nejlepsi"/>
+          </xs:restriction>
+      </xs:simpleType>
+	  
+	  
+	  <xs:simpleType name="resolution">
+          <xs:restriction base="xs:string">
+              <xs:enumeration value="1920x1080"/>
+              <xs:enumeration value="800x600"/>
+              <xs:enumeration value="1280x720"/>
+              <xs:enumeration value="1040x768"/>
+          </xs:restriction>
+      </xs:simpleType>
+
+      <xs:simpleType name="procenta">
+          <xs:restriction base="xs:integer">
+              <xs:minInclusive value="0"/>
+              <xs:maxInclusive value="100"/>
+          </xs:restriction>
+      </xs:simpleType>
+
+      <xs:simpleType name="citlivost">
+          <xs:restriction base="xs:integer">
+              <xs:minInclusive value="0"/>
+              <xs:maxInclusive value="4"/>
+          </xs:restriction>
+      </xs:simpleType>
+
+      <xs:simpleType name="lang">
+          <xs:restriction base="xs:string">
+              <xs:enumeration value="Anglictina"/>
+              <xs:enumeration value="Cestina"/>
+              <xs:enumeration value="Nemcina"/>
+              <xs:enumeration value="Rustina"/>
+              <xs:enumeration value="Japonstina"/>
+              <xs:enumeration value="Elfstina"/>
+          </xs:restriction>
+      </xs:simpleType>
+</xs:schema>
